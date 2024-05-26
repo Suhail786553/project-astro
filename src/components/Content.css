@@ -1,0 +1,194 @@
+.main h1 {
+    font-size: 6vw; /* Font size based on viewport width */
+    margin: 0;
+    padding: 0.5em; /* Padding for better spacing */
+    text-align: center; /* Center align for better presentation */
+    
+}
+@media (min-width: 768px) {
+  h1 {
+      font-size: 4vw;
+  }
+}
+
+/* Further adjustment for very large screens */
+@media (min-width: 1200px) {
+  h1 {
+      font-size: 3vw;
+  }
+}
+.main1 p {
+  font-size: 1rem; /* Base font size for mobile */
+  padding: 1em; /* Base padding for mobile */
+  line-height: 1.5; /* Readable line height */
+  text-align: center; /* Center text horizontally */
+  margin: 0 auto; /* Center the paragraph element itself */
+
+  max-width: 90%; /* Make sure it doesn't stretch too wide on mobile */
+  
+  /* Responsive Typography */
+  @media (min-width: 600px) {
+      font-size: 1.25rem; /* Increase font size for tablets and laptops */
+      max-width: 70%; /* Make sure it doesn't stretch too wide on tablets */
+  }
+
+  @media (min-width: 1024px) {
+      font-size: 1.5rem; /* Further increase font size for larger screens */
+      max-width: 50%; /* Make sure it doesn't stretch too wide on laptops and desktops */
+  }
+}
+
+/* for button css */
+.button-container {
+  display: flex;
+  flex-direction:row; /* Default to vertical layout */
+  justify-content: center;
+  align-items: center;
+  margin: 6px;
+}
+
+.responsive-button {
+  background-color:#131daa;
+  color:white;
+  border:1px solid blue;
+  padding: 1em 2em;
+  margin: 0.5em 5px;
+  cursor: pointer;
+  border-radius: 0px 15px 0px 15px;
+  font-weight: 600;
+  height: 60px;
+  transition: background-color 0.5s linear;
+}
+
+.responsive-button:hover {
+  background-color: transparent;
+  border: 1px solid blue;
+  /* background-color: transparent; */
+  color:black;
+}
+
+@media (max-width: 600px) {
+  .button-container {
+      flex-direction: row; /* Switch to horizontal layout on mobile */
+  }
+
+  .responsive-button {
+      margin: 0 0.5em; /* Adjust margin for horizontal layout */
+  }
+}
+.responsive-button1 {
+  background-color:white;
+  color:black;
+  border:1px solid blue;
+  padding: 1em 2em;
+  margin: 0.5em 5px;
+  cursor: pointer;
+  border-radius: 0px 15px 0px 15px;
+  font-weight: 600;
+  height: 60px;
+  transition: background-color 0.5s linear;
+}
+
+.responsive-button1:hover {
+  background-color:#131daa;
+  border: 1px solid blue;
+  /* background-color: transparent; */
+  color:white;
+}
+
+@media (max-width: 600px) {
+  .button-container {
+      flex-direction: row; /* Switch to horizontal layout on mobile */
+  }
+
+  .responsive-button1 {
+      margin: 0 0.5em; /* Adjust margin for horizontal layout */
+  }
+}
+/* for image css */
+.container {
+  width: 100%;
+  max-width:100%; /* Adjust this value based on your design */
+  margin: auto;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px; /* Optional: Add some border radius for rounded corners */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .container {
+      width: 100%;
+  }
+
+  .responsive-image {
+      border-radius: 0; /* Optional: Remove border radius on smaller screens */
+  }
+}
+.Content h1{
+  font-size: 4vw; /* Font size based on viewport width */
+  margin: 0;
+  padding: 0.5em; /* Padding for better spacing */
+  text-align: center; /* Center align for better presentation */
+  
+}
+
+.write-content{
+background-color:#f7fad9;
+}
+
+
+.Content1 p {
+  font-size:1rem; /* Base font size for mobile */
+  padding: 1em; /* Base padding for mobile */
+  line-height: 1.5; /* Readable line height */
+  text-align: center; /* Center text horizontally */
+  margin: 0 auto; /* Center the paragraph element itself */
+
+  max-width: 90%; /* Make sure it doesn't stretch too wide on mobile */
+  
+  /* Responsive Typography */
+  @media (min-width: 600px) {
+      font-size: 125rem; /* Increase font size for tablets and laptops */
+      max-width: 70%; /* Make sure it doesn't stretch too wide on tablets */
+  }
+
+  @media (min-width: 1024px) {
+      font-size: 1.5rem; /* Further increase font size for larger screens */
+      max-width: 50%; /* Make sure it doesn't stretch too wide on laptops and desktops */
+  }
+}
+
+/* logo rows running css */
+.logo-row {
+  overflow: hidden;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  animation: scroll 15s linear infinite;
+}
+
+.logos img {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+  margin: 0 20px; /* Adjust as needed */
+}
+
+@keyframes scroll {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(-20%);
+  }
+}
