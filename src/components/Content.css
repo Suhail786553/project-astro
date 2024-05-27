@@ -209,7 +209,11 @@ background-color:#f7fad9;
   margin-bottom: 20px;
 }
 .content2 h2{
-  font-size:3.2rem;
+  font-size: 4vw; /* Font size based on viewport width */
+  margin: 0;
+  padding: 0.5em; /* Padding for better spacing */
+  text-align: center; /* Center align for better presentation */
+  
 }
 .invest{
   background-color: brown;
