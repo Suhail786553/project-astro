@@ -1,5 +1,6 @@
 import React from "react";
 import "./Content.css";
+
 // Define a functional component
 function Content() {
   return (
@@ -42,8 +43,8 @@ function Content() {
           </p>
         </div>
         {/* logos running */}
-        <div class="logo-row">
-          <div class="logos">
+        <div className="logo-row">
+          <div className="logos">
             <img
               src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2036b309cc89f56bfe_company%20logo%206.svg"
               alt="Logo 1"
@@ -79,8 +80,8 @@ function Content() {
           </div>
         </div>
         /
-        <div class="logo-row">
-          <div class="logos">
+        <div className="logo-row">
+          <div className="logos">
             <img
               src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a4e4b3f980c78aad7b5_company%20logo%2010.svg"
               alt="Logo 5"
@@ -116,19 +117,41 @@ function Content() {
           </div>
         </div>
       </section>
-      
-      <div class="container1">
-        <div class="content2">
-        <h2>
-            <span className="span">Understand</span>that navigating the complex world of <span className="invest"> Investment </span>
+
+      <div className="container1">
+        <div className="content2">
+          <h2>
+            <span className="span">Understand</span>that navigating the complex
+            world of <span className="invest"> Investment </span>
             requires a blend of expertise, insight, and a forward-thinking
-            approach. Our seasoned team of <span className="finance">Financial</span>
+            approach. Our seasoned team of{" "}
+            <span className="finance">Financial</span>
           </h2>
         </div>
-        <div class="photo-gallery">
-            <div class="photo" id="photo1"></div>
-            <div class="photo" id="photo2"></div>
-            <div class="photo" id="photo3"></div>
+        <div className="photo-gallery">
+          <div className="photo" id="photo1"></div>
+          <div className="photo" id="photo2"></div>
+          <div className="photo" id="photo3"></div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="step-connector">
+            <div className="step">Step 1 <h4>Discovery</h4></div>
+            <div className="connector"></div>
+            <div className="step">Step 2<h4>Research</h4></div>
+            <div className="connector"></div>
+            <div className="step">Step 3<h4>Planning</h4></div>
+        <div className="buttons">
+                <button>Button 1</button>
+                <button>Button 2</button>
+        </div>
+            </div>
+        <div className="image-slider">
+            <div className="slider">
+                <img src="https://s.globalsources.com/IMAGES/live/202404020635523552" alt="Slide 1"/>
+                
+            </div>
+           
         </div>
     </div>
     </div>
