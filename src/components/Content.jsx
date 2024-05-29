@@ -142,8 +142,8 @@ function Content() {
             <div className="connector"></div>
             <div className="step">Step 3<h4>Planning</h4></div>
         <div className="buttons">
-                <button>Button 1</button>
-                <button>Button 2</button>
+                <button>BIND US</button>
+                <button>CONTACT US</button>
         </div>
             </div>
         <div className="image-slider">
@@ -152,6 +152,14 @@ function Content() {
                 
             </div>
            
+        </div>
+    </div>
+    <div class="container3">
+        <div class="box1">
+            <h1>Explore About Zaivest, Why People Select It.</h1>
+        </div>
+        <div class="box2">
+            <p>Stay informed, stay empowered – because when you understand your investments, that you're future better equipped to achieve your financial goalsand achieve ny other goals like partenship bussiness or any other type of Bussiness</p>
         </div>
     </div>
     </div>
