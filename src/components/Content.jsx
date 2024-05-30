@@ -155,16 +155,24 @@ function Content() {
            
         </div>
     </div>
-    <div class="container3">
-        <div class="box1">
+    <div className="container3">
+        <div className="box1">
             <h1>Explore About Zaivest, Why People Select It.</h1>
         </div>
-        <div class="box2">
+        <div className="box2">
             <p>Stay informed, stay empowered – because when you understand your investments, that you're future better equipped to achieve your financial goalsand achieve ny other goals like partenship bussiness or any other type of Bussiness</p>
         </div>
     </div>
     <div />
     <InteractiveDivs/>
+    {/* <div className="container5">
+        <div className="bx1">
+            <h1>Survey And Embrace In A Whole New Dimension.</h1>
+        </div>
+        <div className="bx2">
+            <p>Stay informed, stay empowered – because when you understand your investments, that you're future better equipped to achieve your financial goals.</p>
+        </div>
+    </div> */}
     </div>
     
   );

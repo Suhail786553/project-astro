@@ -18,7 +18,7 @@ const InteractiveDivs = () => {
                         ref.textContent = count;
                     }
                 }, 20);
-            });
+            });pm
         };
 
         const observer = new IntersectionObserver((entries) => {

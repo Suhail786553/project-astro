@@ -459,3 +459,44 @@ background-color:#f7fad9;
       flex: 1 1 100%;
   }
 }
+/* for bx css */
+.container5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.bx1, .bx2 {
+  flex: 1 1 45%;
+  margin: 10px;
+  padding: 20px;
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+}
+.bx1 h1{
+  font-size:3.7rem;
+  color: rgb(2, 2, 30);
+}
+.bx2 p{
+  font-size: 1.3rem;
+  color: #454a61;
+}
+
+/* For laptops and desktops */
+@media (min-width: 768px) {
+  .container5 {
+      flex-wrap: nowrap;
+  }
+
+  .bx1, .bx2 {
+      flex: 1;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+  .bx1, .bx2 {
+      flex: 1 1 100%;
+  }
+}
