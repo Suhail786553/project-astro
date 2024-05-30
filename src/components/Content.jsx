@@ -1,5 +1,6 @@
 import React from "react";
 import "./Content.css";
+import InteractiveDivs from "./InteractiveDivs";
 
 // Define a functional component
 function Content() {
@@ -162,7 +163,10 @@ function Content() {
             <p>Stay informed, stay empowered – because when you understand your investments, that you're future better equipped to achieve your financial goalsand achieve ny other goals like partenship bussiness or any other type of Bussiness</p>
         </div>
     </div>
+    <div />
+    <InteractiveDivs/>
     </div>
+    
   );
 }
 
