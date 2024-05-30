@@ -1,8 +1,10 @@
 import React from "react";
 import "./Content.css";
 import InteractiveDivs from "./InteractiveDivs";
+import CardSlider from "./Cardslider";
 
 // Define a functional component
+  
 function Content() {
   return (
     <div>
@@ -170,6 +172,23 @@ function Content() {
         </div>
         <div className="bx2">
             <p>Stay informed, stay empowered – because when you understand your investments, that you're future better equipped to achieve your financial goals.</p>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bbb06cc8f6de9337b459c1_investment%20img%203.png" alt="Card Image 1"/>
+            <h2>Software Companies</h2>
+            
+        </div>
+        <div class="card">
+            <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bb94fbc99652b4b054ad0d_investment%20img%201.png" alt="Card Image 2"/>
+            <h2>Hardware Companies</h2>
+            
+        </div>
+        <div class="card">
+            <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bbb598f9e3ad4438f0fc00_investment%20img%204.png" alt="Card Image 3"/>
+            <h2>Mobile App Companies</h2>
+            
         </div>
     </div>
     </div>

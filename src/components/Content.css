@@ -500,3 +500,51 @@ background-color:#f7fad9;
       flex: 1 1 100%;
   }
 }
+/* card css */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color:#f7fad9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  margin: 16px 0;
+}
+
+
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #e0f7fa;
+  border: 1px solid black;
+
+}
+
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .card-container {
+      grid-template-columns: 1fr;
+  }
+}
