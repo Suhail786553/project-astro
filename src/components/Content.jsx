@@ -80,7 +80,6 @@ function Content() {
             />
           </div>
         </div>
-        /
         <div className="logo-row">
           <div className="logos">
             <img
@@ -165,14 +164,14 @@ function Content() {
     </div>
     <div />
     <InteractiveDivs/>
-    {/* <div className="container5">
+    <div className="container5">
         <div className="bx1">
             <h1>Survey And Embrace In A Whole New Dimension.</h1>
         </div>
         <div className="bx2">
             <p>Stay informed, stay empowered – because when you understand your investments, that you're future better equipped to achieve your financial goals.</p>
         </div>
-    </div> */}
+    </div>
     </div>
     
   );
