@@ -4,7 +4,7 @@ import InteractiveDivs from "./InteractiveDivs";
 import CardSlider from "./Cardslider";
 
 // Define a functional component
-  
+
 function Content() {
   return (
     <div>
@@ -23,7 +23,7 @@ function Content() {
       </div>
       <div className="button-container">
         <button className="responsive-button">BIND WITH US</button>
-        <button className="responsive-button1">CONTACT US</button>
+        <button className="responsive-button1">CONTACT NOW</button>
       </div>
       <div className="container">
         <img
@@ -138,70 +138,132 @@ function Content() {
       </div>
       <div className="container">
         <div className="step-connector">
-            <div className="step">Step 1 <h4>Discovery</h4></div>
-            <div className="connector"></div>
-            <div className="step">Step 2<h4>Research</h4></div>
-            <div className="connector"></div>
-            <div className="step">Step 3<h4>Planning</h4></div>
-        <div className="buttons">
-                <button>BIND US</button>
-                <button>CONTACT US</button>
+          <div className="step">
+            Step 1 <h4>Discovery</h4>
+          </div>
+          <div className="connector"></div>
+          <div className="step">
+            Step 2<h4>Research</h4>
+          </div>
+          <div className="connector"></div>
+          <div className="step">
+            Step 3<h4>Planning</h4>
+          </div>
+          <div className="buttons">
+            <button>BIND US</button>
+            <button>CONTACT US</button>
+          </div>
         </div>
-            </div>
         <div className="image-slider">
-            <div className="slider">
-                <img src="https://s.globalsources.com/IMAGES/live/202404020635523552" alt="Slide 1"/>
-                
-            </div>
-           
+          <div className="slider">
+            <img
+              src="https://s.globalsources.com/IMAGES/live/202404020635523552"
+              alt="Slide 1"
+            />
+          </div>
         </div>
-    </div>
-    <div className="container3">
+      </div>
+      <div className="container3">
         <div className="box1">
-            <h1>Explore About Zaivest, Why People Select It.</h1>
+          <h1>Explore About Zaivest, Why People Select It.</h1>
         </div>
         <div className="box2">
-            <p>Stay informed, stay empowered – because when you understand your investments, that you're future better equipped to achieve your financial goalsand achieve ny other goals like partenship bussiness or any other type of Bussiness</p>
+          <p>
+            Stay informed, stay empowered – because when you understand your
+            investments, that you're future better equipped to achieve your
+            financial goalsand achieve ny other goals like partenship bussiness
+            or any other type of Bussiness
+          </p>
         </div>
-    </div>
-    <div />
-    <InteractiveDivs/>
-    <div className="container5">
+      </div>
+      <div />
+      <InteractiveDivs />
+      <div className="container5">
         <div className="bx1">
-            <h1>Survey And Embrace In A Whole New Dimension.</h1>
+          <h1>Explore About Zaivest, Why People Select It.</h1>
         </div>
         <div className="bx2">
-            <p>Stay informed, stay empowered – because when you understand your investments, that you're future better equipped to achieve your financial goals.</p>
+          <p>
+            Stay informed, stay empowered – because when you understand your
+            investments, that you're future better equipped to achieve your
+            financial goals.
+          </p>
         </div>
-    </div>
-    <hr></hr>
-    <div className="card-container">
+      </div>
+      <hr></hr>
+      <div className="card-container">
         <div className="card">
-            <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bbb06cc8f6de9337b459c1_investment%20img%203.png" alt="Card Image 1"/>
-            <h2>Software Companies</h2>
-            
+          <img
+            src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bbb06cc8f6de9337b459c1_investment%20img%203.png"
+            alt="Card Image 1"
+          />
+          <h2>Software Companies</h2>
         </div>
         <div className="card">
-            <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bb94fbc99652b4b054ad0d_investment%20img%201.png" alt="Card Image 2"/>
-            <h2>Hardware Companies</h2>
-            
+          <img
+            src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bb94fbc99652b4b054ad0d_investment%20img%201.png"
+            alt="Card Image 2"
+          />
+          <h2>Hardware Companies</h2>
         </div>
         <div className="card">
-            <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bbb598f9e3ad4438f0fc00_investment%20img%204.png" alt="Card Image 3"/>
-            <h2>Mobile App Companies</h2>
-            
+          <img
+            src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bbb598f9e3ad4438f0fc00_investment%20img%204.png"
+            alt="Card Image 3"
+          />
+          <h2>Mobile App Companies</h2>
         </div>
-    </div>
-    
-        <div className="marquee">
-            <div className="marquee-content">
-                <span><h2>WORKS ON ZAVIEST  BELIEVE FOR SUCCESS IN YOUR LIFE</h2></span>
-                <span><h2>WORKS ON ZAVIEST  BELIEVE FOR SUCCESS IN YOUR LIFE</h2></span>
-            </div>
+      </div>
+
+      <div className="marquee">
+        <div className="marquee-content">
+          <span>
+            <h2>WORKS ON ZAVIEST BELIEVE FOR SUCCESS IN YOUR LIFE</h2>
+          </span>
+          <span>
+            <h2>WORKS ON ZAVIEST BELIEVE FOR SUCCESS IN YOUR LIFE</h2>
+          </span>
         </div>
+      </div>
+      <div className="container6">
+        <div className="bxx1">
+          <h1>Explore About Zaivest, Why People Select It.</h1>
+        </div>
+        <div className="bxx2">
+          <p>
+            Stay informed, stay empowered – because when you understand your
+            investments, that you're future better equipped to achieve your
+            financial goals.
+          </p>
+          <div className="button-container">
+            <button className="responsive-button1">CONTACT NOW</button>
+          </div>
+        </div>
+      </div>
+      <div className="photo-container">
+        <div
+          className="photo"
+          style={{
+            backgroundImage:
+              "url('https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf7769b68dbbea9edccd46_about%20us%20img%204.png')",
+          }}
+        ></div>
+        <div
+          className="photo"
+          style={{
+            backgroundImage:
+              "url('https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf7769b68dbbea9edccd46_about%20us%20img%204.png')",
+          }}
+        ></div>
+        <div
+          className="photo"
+          style={{
+            backgroundImage:
+              "url('https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf7769b68dbbea9edccd46_about%20us%20img%204.png')",
+          }}
+        ></div>
+      </div>
     </div>
-    
-    
   );
 }
 
