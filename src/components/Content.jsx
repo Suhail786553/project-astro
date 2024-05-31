@@ -1,7 +1,8 @@
 import React from "react";
 import "./Content.css";
 import InteractiveDivs from "./InteractiveDivs";
-import CardSlider from "./Cardslider";
+// import CardSwitcher from "./CardSwitcher";
+// import CardSlider from "./Cardslider";
 
 // Define a functional component
 
@@ -241,18 +242,46 @@ function Content() {
         </div>
       </div>
       <div className="photo-c">
-      <div className="photo-container">
-        <div className="photo-frame">
-            <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf775df4ca11d2994fb37a_about%20us%20img%203.png" alt="Photo 1"/>
-            <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf76eb9cd3b97eab3d61c7_about%20us%20img%202.png" alt="Photo 2"/>
-            <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf76c5ce8ad963b4e81b72_about%20us%20img%201.png" alt="Photo 3"/>
-            <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf7769b68dbbea9edccd46_about%20us%20img%204.png" alt="Photo 4"/>
-            <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf7769b68dbbea9edccd46_about%20us%20img%204.png" alt="Photo 5"/>
+        <div className="photo-container">
+          <div className="photo-frame">
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf775df4ca11d2994fb37a_about%20us%20img%203.png"
+              alt="Photo 1"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf76eb9cd3b97eab3d61c7_about%20us%20img%202.png"
+              alt="Photo 2"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf76c5ce8ad963b4e81b72_about%20us%20img%201.png"
+              alt="Photo 3"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf7769b68dbbea9edccd46_about%20us%20img%204.png"
+              alt="Photo 4"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf7769b68dbbea9edccd46_about%20us%20img%204.png"
+              alt="Photo 5"
+            />
+          </div>
         </div>
+      </div>
+      <div className="container5">
+        <div className="bx1">
+          <h1>Explore About Zaivest, Why People Select It.</h1>
+        </div>
+        <div className="bx2">
+          <p>
+            Stay informed, stay empowered – because when you understand your
+            investments, that you're future better equipped to achieve your
+            financial goals.
+          </p>
+        </div>
+
+      </div>
+      
     </div>
-    </div>
-    </div>
-   
   );
 }
 
