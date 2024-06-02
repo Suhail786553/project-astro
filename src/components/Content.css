@@ -666,3 +666,59 @@ body:active .photo-frame {
   80% { transform: translateY(-400%); }
   100% { transform: translateY(-500%); }
 }
+/* photo coin css */
+.container8 {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  background-color: #080a2f;
+}
+
+.upper2 {
+  text-align: center;
+  padding: 20px;
+  background-color: #080a2f;
+  color: white;
+  font-size: 2.6rem;
+}
+
+.middle {
+  padding: 20px;
+  text-align: center;
+}
+
+.middle img {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  
+}
+.mid-photo{
+  background: linear-gradient(to right,#77b5ff, #af6ef8);
+  border-radius: 20px 70px 20px 70px;
+}
+
+.coins {
+  position: relative;
+}
+
+
+/* .coin {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10%;
+  animation: moveCoins 2s infinite alternate;
+}
+
+@keyframes moveCoins {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+} */

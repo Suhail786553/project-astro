@@ -1,7 +1,7 @@
 import React from "react";
 import "./Content.css";
 import InteractiveDivs from "./InteractiveDivs";
-// import CardSwitcher from "./CardSwitcher";
+import CardSwitcher from "./CardSwitcher";
 // import CardSlider from "./Cardslider";
 
 // Define a functional component
@@ -280,7 +280,34 @@ function Content() {
         </div>
 
       </div>
-      
+      {/* <CardSwitcher/> */}
+      <div className="container8">
+  <div className="upper2">
+    <h2>The Prime Investor We Have, Who Make’s Your Dream.</h2>
+    <h5>Stay informed, stay empowered – because when you understand your investments, that you're future better equipped to achieve your financial goals.
+</h5>
+  </div>
+  <div className="middle">
+    <img src="https://assets-global.website-files.com/65ba1b755715957fca408ddc/65bf975cbc19eafdb0cf1375_member%20img%205.png" alt="Medium Photo" className="mid-photo"/>
+    {/* <div className="coins">
+      <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65cc9de9c829e27c189af716_v1%20member%20coin%202.svg" alt="Coin 1" className="coin"/>
+      <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65cc9de9c829e27c189af716_v1%20member%20coin%202.svg" alt="Coin 2" className="coin"/>
+    </div> */}
+  </div>
+</div>
+<div className="container5">
+        <div className="bx1">
+          <h1>Upgrade And Downgrade With Important Information.</h1>
+        </div>
+        <div className="bx2">
+          <p>
+            Stay informed, stay empowered – because when you understand your
+            investments, that you're future better equipped to achieve your
+            financial goals.
+          </p>
+        </div>
+
+      </div>
     </div>
   );
 }

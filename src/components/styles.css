@@ -1,0 +1,38 @@
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .photo-container2 {
+    width: 50%;
+  }
+  
+  .card-container2 {
+    width: 50%;
+  }
+  
+  .card2 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-container2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 768px) {
+    .container2 {
+      flex-direction: column;
+    }
+  
+    .photo-container2,
+    .card-container2 {
+      width: 100%;
+    }
+  }
+  
