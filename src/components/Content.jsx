@@ -137,7 +137,7 @@ function Content() {
           <div className="photo" id="photo3"></div>
         </div>
       </div>
-      <div className="container">
+      <div className="containers">
         <div className="step-connector">
           <div className="step">
             Step 1 <h4>Discovery</h4>

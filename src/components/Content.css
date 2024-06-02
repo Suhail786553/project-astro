@@ -117,6 +117,7 @@
   height: auto;
   display: block;
   border-radius: 10px; /* Optional: Add some border radius for rounded corners */
+  /* margin:0 -19px; */
 }
 
 /* Media Queries */
@@ -244,14 +245,17 @@ background-color:#f7fad9;
 
 #photo1 {
   background-image: url('https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65f2c34b59750ccb71e85a0f_Banner-Circle-1.svg');
+  /* margin:120px; */
 }
 
 #photo2 {
   background-image: url('https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65f2c34b59750ccb71e85a0f_Banner-Circle-1.svg');
+  /* margin:120px; */
 }
 
 #photo3 {
   background-image: url('https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65f2c34b59750ccb71e85a0f_Banner-Circle-1.svg');
+  /* margin:120px; */
 }
 
 @keyframes rotatePhotos {
@@ -302,7 +306,7 @@ background-color:#f7fad9;
   }
 }
 /* stepwise and photos css */
-.container {
+.containers {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
