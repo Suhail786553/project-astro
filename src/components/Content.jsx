@@ -308,6 +308,41 @@ function Content() {
         </div>
 
       </div>
+      <footer>
+        <div class="footer-logo">
+            <img src="https://app.shiprocket.in/sr_login/assets/images/srlogo.svg
+" alt="Logo"/>
+        </div>
+        <div class="footer-subscribe">
+            <div class="subscribe-content">
+                <p>Enter Your Email</p>
+                <button>SUBSCRIBE NOW</button>
+            </div>
+        </div>
+        <div class="footer-info">
+            <div class="info-column">
+                <h4>Column 1</h4>
+                <p>Link 1</p>
+                <p>Link 2</p>
+            </div>
+            <div class="info-column">
+                <h4>Column 2</h4>
+                <p>Link 1</p>
+                <p>Link 2</p>
+            </div>
+            <div class="info-column">
+                <h4>Column 3</h4>
+                <p>Link 1</p>
+                <p>Link 2</p>
+            </div>
+            <div class="info-column">
+                <h4>Follow Us</h4>
+                <p><i class="fab fa-facebook"></i> Facebook</p>
+                <p><i class="fab fa-twitter"></i> Twitter</p>
+                <p><i class="fab fa-instagram"></i> Instagram</p>
+            </div>
+        </div>
+    </footer>
     </div>
   );
 }
