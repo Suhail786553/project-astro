@@ -150,8 +150,8 @@ function Content() {
           <div className="step">
             Step 3<h4>Planning</h4>
           </div>
-          <div className="buttons">
-            <button>BIND US</button>
+          <div className="buttons-step">
+            <button classname="one-btn">BIND US</button>
             <button>CONTACT US</button>
           </div>
         </div>
@@ -321,25 +321,36 @@ function Content() {
         </div>
         <div class="footer-info">
             <div class="info-column">
-                <h4>Column 1</h4>
-                <p>Link 1</p>
-                <p>Link 2</p>
+                <h4>Pages</h4>
+                <p>Home </p>
+                <p>About</p>
+                <p>About</p>
+                <p>Shop</p>
+                <p>Contact Us</p>
             </div>
             <div class="info-column">
-                <h4>Column 2</h4>
-                <p>Link 1</p>
-                <p>Link 2</p>
+                <h4>Company Pages</h4>
+                <p>Shop Single</p>
+                <p>Blog Single</p>
+                <p>Blog</p>
+                <p>Project</p>
+                <p>Project Single</p>
             </div>
             <div class="info-column">
-                <h4>Column 3</h4>
-                <p>Link 1</p>
-                <p>Link 2</p>
+                <h4>Template</h4>
+                <p>404 Not Found</p>
+                <p>Change Log</p>
+                <p>License</p>
+                <p>Style Guide</p>
+                <p>Password Protected</p>
             </div>
             <div class="info-column">
-                <h4>Follow Us</h4>
+                <h4>Contact Us</h4>
                 <p><i class="fab fa-facebook"></i> Facebook</p>
                 <p><i class="fab fa-twitter"></i> Twitter</p>
                 <p><i class="fab fa-instagram"></i> Instagram</p>
+                <p><i class="fab fa-linkedin"></i> Linkedin</p>
+                <p><i class="fab fa-skype"></i> Skype</p>
             </div>
         </div>
     </footer>
