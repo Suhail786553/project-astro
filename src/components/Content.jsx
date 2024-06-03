@@ -1,10 +1,5 @@
-import React from "react";
 import "./Content.css";
 import InteractiveDivs from "./InteractiveDivs";
-import CardSwitcher from "./CardSwitcher";
-// import CardSlider from "./Cardslider";
-
-// Define a functional component
 
 function Content() {
   return (
@@ -309,18 +304,18 @@ function Content() {
 
       </div>
       <footer>
-        <div class="footer-logo">
+        <div className="footer-logo">
             <img src="https://app.shiprocket.in/sr_login/assets/images/srlogo.svg
 " alt="Logo"/>
         </div>
-        <div class="footer-subscribe">
-            <div class="subscribe-content">
+        <div className="footer-subscribe">
+            <div className="subscribe-content">
                 <p>Enter Your Email</p>
-                <button>SUBSCRIBE NOW</button>
+                <button>SUBSCRIBE</button>
             </div>
         </div>
-        <div class="footer-info">
-            <div class="info-column">
+        <div className="footer-info">
+            <div className="info-column">
                 <h4>Pages</h4>
                 <p>Home </p>
                 <p>About</p>
@@ -328,7 +323,7 @@ function Content() {
                 <p>Shop</p>
                 <p>Contact Us</p>
             </div>
-            <div class="info-column">
+            <div className="info-column">
                 <h4>Company Pages</h4>
                 <p>Shop Single</p>
                 <p>Blog Single</p>
@@ -336,7 +331,7 @@ function Content() {
                 <p>Project</p>
                 <p>Project Single</p>
             </div>
-            <div class="info-column">
+            <div className="info-column">
                 <h4>Template</h4>
                 <p>404 Not Found</p>
                 <p>Change Log</p>
@@ -344,13 +339,13 @@ function Content() {
                 <p>Style Guide</p>
                 <p>Password Protected</p>
             </div>
-            <div class="info-column">
+            <div className="info-column">
                 <h4>Contact Us</h4>
-                <p><i class="fab fa-facebook"></i> Facebook</p>
-                <p><i class="fab fa-twitter"></i> Twitter</p>
-                <p><i class="fab fa-instagram"></i> Instagram</p>
-                <p><i class="fab fa-linkedin"></i> Linkedin</p>
-                <p><i class="fab fa-skype"></i> Skype</p>
+                <p><i className="fab fa-facebook"></i> Facebook</p>
+                <p><i className="fab fa-twitter"></i> Twitter</p>
+                <p><i className="fab fa-instagram"></i> Instagram</p>
+                <p><i className="fab fa-linkedin"></i> Linkedin</p>
+                <p><i className="fab fa-skype"></i> Skype</p>
             </div>
         </div>
     </footer>
