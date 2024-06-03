@@ -101,9 +101,10 @@
   .navbar__toggle {
     display: none;
     background: none;
-    color: white;
+    color:black;
     border: none;
     font-size: 1.5em;
+    margin: 4px;
   }
   
   @media (max-width: 768px) {
