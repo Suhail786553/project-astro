@@ -114,8 +114,6 @@ function Content() {
             />
           </div>
         </div>
-      
-
       </section>
 
       <div className="container1">
@@ -153,11 +151,11 @@ function Content() {
           </div>
         </div>
         <div class="scroll-container">
-        <div class="image" id="image4"></div>
-        <div class="image" id="image3"></div>
-        <div class="image" id="image2"></div>
-        <div class="image" id="image1"></div>
-    </div>
+          <div class="image" id="image4"></div>
+          <div class="image" id="image3"></div>
+          <div class="image" id="image2"></div>
+          <div class="image" id="image1"></div>
+        </div>
       </div>
       <div className="container3">
         <div className="box1">
@@ -236,40 +234,14 @@ function Content() {
           </div>
         </div>
       </div>
-      {/* <div className="photo-c">
-        <div className="photo-container">
-          <div className="photo-frame">
-            <img
-              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf775df4ca11d2994fb37a_about%20us%20img%203.png"
-              alt="Photo 1"
-            />
-            <img
-              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf76eb9cd3b97eab3d61c7_about%20us%20img%202.png"
-              alt="Photo 2"
-            />
-            <img
-              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf76c5ce8ad963b4e81b72_about%20us%20img%201.png"
-              alt="Photo 3"
-            />
-            <img
-              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf7769b68dbbea9edccd46_about%20us%20img%204.png"
-              alt="Photo 4"
-            />
-            <img
-              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bf7769b68dbbea9edccd46_about%20us%20img%204.png"
-              alt="Photo 5"
-            />
-          </div>
-        </div>
-      </div> */}
-       <div class="center-wrapper">
+      <div class="center-wrapper">
         <div class="scroll-container1">
-            <div class="image" id="image1"></div>
-            <div class="image" id="image2"></div>
-            <div class="image" id="image3"></div>
-            <div class="image" id="image4"></div>
+          <div class="image" id="image1"></div>
+          <div class="image" id="image2"></div>
+          <div class="image" id="image3"></div>
+          <div class="image" id="image4"></div>
         </div>
-    </div>
+      </div>
       <div className="container5">
         <div className="bx1">
           <h1>Explore About Zaivest, Why People Select It.</h1>
@@ -281,24 +253,30 @@ function Content() {
             financial goals.
           </p>
         </div>
-
       </div>
       {/* <CardSwitcher/> */}
       <div className="container8">
-  <div className="upper2">
-    <h2>The Prime Investor We Have, Who Make’s Your Dream.</h2>
-    <h5>Stay informed, stay empowered – because when you understand your investments, that you're future better equipped to achieve your financial goals.
-</h5>
-  </div>
-  <div className="middle">
-    <img src="https://assets-global.website-files.com/65ba1b755715957fca408ddc/65bf975cbc19eafdb0cf1375_member%20img%205.png" alt="Medium Photo" className="mid-photo"/>
-    {/* <div className="coins">
+        <div className="upper2">
+          <h2>The Prime Investor We Have, Who Make’s Your Dream.</h2>
+          <h5>
+            Stay informed, stay empowered – because when you understand your
+            investments, that you're future better equipped to achieve your
+            financial goals.
+          </h5>
+        </div>
+        <div className="middle">
+          <img
+            src="https://assets-global.website-files.com/65ba1b755715957fca408ddc/65bf975cbc19eafdb0cf1375_member%20img%205.png"
+            alt="Medium Photo"
+            className="mid-photo"
+          />
+          {/* <div className="coins">
       <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65cc9de9c829e27c189af716_v1%20member%20coin%202.svg" alt="Coin 1" className="coin"/>
       <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65cc9de9c829e27c189af716_v1%20member%20coin%202.svg" alt="Coin 2" className="coin"/>
     </div> */}
-  </div>
-</div>
-<div className="container5">
+        </div>
+      </div>
+      <div className="container5">
         <div className="bx1">
           <h1>Upgrade And Downgrade With Important Information.</h1>
         </div>
@@ -309,54 +287,66 @@ function Content() {
             financial goals.
           </p>
         </div>
-
       </div>
       <footer>
         <div className="footer-logo">
-            <img src="https://app.shiprocket.in/sr_login/assets/images/srlogo.svg
-" alt="Logo"/>
+          <img
+            src="https://app.shiprocket.in/sr_login/assets/images/srlogo.svg
+"
+            alt="Logo"
+          />
         </div>
         <div className="footer-subscribe">
-            <div className="subscribe-content">
-                <p>Enter Your Email</p>
-                <button>SUBSCRIBE</button>
-            </div>
+          <div className="subscribe-content">
+            <p>Enter Your Email</p>
+            <button>SUBSCRIBE</button>
+          </div>
         </div>
         <div className="footer-info">
-            <div className="info-column">
-                <h4>Pages</h4>
-                <p>Home </p>
-                <p>About</p>
-                <p>About</p>
-                <p>Shop</p>
-                <p>Contact Us</p>
-            </div>
-            <div className="info-column">
-                <h4>Company Pages</h4>
-                <p>Shop Single</p>
-                <p>Blog Single</p>
-                <p>Blog</p>
-                <p>Project</p>
-                <p>Project Single</p>
-            </div>
-            <div className="info-column">
-                <h4>Template</h4>
-                <p>404 Not Found</p>
-                <p>Change Log</p>
-                <p>License</p>
-                <p>Style Guide</p>
-                <p>Password Protected</p>
-            </div>
-            <div className="info-column">
-                <h4>Contact Us</h4>
-                <p><i className="fab fa-facebook"></i> Facebook</p>
-                <p><i className="fab fa-twitter"></i> Twitter</p>
-                <p><i className="fab fa-instagram"></i> Instagram</p>
-                <p><i className="fab fa-linkedin"></i> Linkedin</p>
-                <p><i className="fab fa-skype"></i> Skype</p>
-            </div>
+          <div className="info-column">
+            <h4>Pages</h4>
+            <p>Home </p>
+            <p>About</p>
+            <p>About</p>
+            <p>Shop</p>
+            <p>Contact Us</p>
+          </div>
+          <div className="info-column">
+            <h4>Company Pages</h4>
+            <p>Shop Single</p>
+            <p>Blog Single</p>
+            <p>Blog</p>
+            <p>Project</p>
+            <p>Project Single</p>
+          </div>
+          <div className="info-column">
+            <h4>Template</h4>
+            <p>404 Not Found</p>
+            <p>Change Log</p>
+            <p>License</p>
+            <p>Style Guide</p>
+            <p>Password Protected</p>
+          </div>
+          <div className="info-column">
+            <h4>Contact Us</h4>
+            <p>
+              <i className="fab fa-facebook"></i> Facebook
+            </p>
+            <p>
+              <i className="fab fa-twitter"></i> Twitter
+            </p>
+            <p>
+              <i className="fab fa-instagram"></i> Instagram
+            </p>
+            <p>
+              <i className="fab fa-linkedin"></i> Linkedin
+            </p>
+            <p>
+              <i className="fab fa-skype"></i> Skype
+            </p>
+          </div>
         </div>
-    </footer>
+      </footer>
     </div>
   );
 }
