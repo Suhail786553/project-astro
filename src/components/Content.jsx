@@ -150,11 +150,11 @@ function Content() {
             <button>CONTACT US</button>
           </div>
         </div>
-        <div class="scroll-container">
-          <div class="image" id="image4"></div>
-          <div class="image" id="image3"></div>
-          <div class="image" id="image2"></div>
-          <div class="image" id="image1"></div>
+        <div className="scroll-container">
+          <div className="image" id="image4"></div>
+          <div className="image" id="image3"></div>
+          <div className="image" id="image2"></div>
+          <div className="image" id="image1"></div>
         </div>
       </div>
       <div className="container3">
@@ -234,12 +234,12 @@ function Content() {
           </div>
         </div>
       </div>
-      <div class="center-wrapper">
-        <div class="scroll-container1">
-          <div class="image" id="image1"></div>
-          <div class="image" id="image2"></div>
-          <div class="image" id="image3"></div>
-          <div class="image" id="image4"></div>
+      <div className="center-wrapper">
+        <div className="scroll-container1">
+          <div className="image" id="image1"></div>
+          <div className="image" id="image2"></div>
+          <div className="image" id="image3"></div>
+          <div className="image" id="image4"></div>
         </div>
       </div>
       <div className="container5">
