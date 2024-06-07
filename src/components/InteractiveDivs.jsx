@@ -69,6 +69,7 @@ const InteractiveDivs = () => {
                 <div className="lower-part">
                     <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bddcd0df98aaa21d6ee4f4_v1%20about%20img%201.png" className="medium-photo" alt="Photo 4" />
                     <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bddd33686946adb23c18da_v1%20about%20img%202.png" className="medium-photo" alt="Photo 5" />
+                    {/* <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bddd456d804afa728cd27a_v1%20about%20img%203.png" className="medium-photo" alt="Photo 5" /> */}
                 </div>
                 <div className="background-coins">
                     <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bde06e5f59f644cbc5dcca_v1%20about%20icon%202.svg" className="coin" alt="Coin" />

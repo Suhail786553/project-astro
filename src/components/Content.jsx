@@ -114,6 +114,8 @@ function Content() {
             />
           </div>
         </div>
+      
+
       </section>
 
       <div className="container1">
@@ -150,14 +152,12 @@ function Content() {
             <button>CONTACT US</button>
           </div>
         </div>
-        <div className="image-slider">
-          <div className="slider">
-            <img
-              src="https://s.globalsources.com/IMAGES/live/202404020635523552"
-              alt="Slide 1"
-            />
-          </div>
-        </div>
+        <div class="scroll-container">
+        <div class="image" id="image4"></div>
+        <div class="image" id="image3"></div>
+        <div class="image" id="image2"></div>
+        <div class="image" id="image1"></div>
+    </div>
       </div>
       <div className="container3">
         <div className="box1">
@@ -236,7 +236,7 @@ function Content() {
           </div>
         </div>
       </div>
-      <div className="photo-c">
+      {/* <div className="photo-c">
         <div className="photo-container">
           <div className="photo-frame">
             <img
@@ -261,7 +261,15 @@ function Content() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
+       <div class="center-wrapper">
+        <div class="scroll-container1">
+            <div class="image" id="image1"></div>
+            <div class="image" id="image2"></div>
+            <div class="image" id="image3"></div>
+            <div class="image" id="image4"></div>
+        </div>
+    </div>
       <div className="container5">
         <div className="bx1">
           <h1>Explore About Zaivest, Why People Select It.</h1>

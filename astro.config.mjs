@@ -1,8 +1,18 @@
+// import { defineConfig } from 'astro/config';
+
+// import react from "@astrojs/react";
+
+// // https://astro.build/config
+// export default defineConfig({
+//   integrations: [react()],
+//   redirects: {
+//     '/old-page': '/new-page'
+//   }
+// });
 import { defineConfig } from 'astro/config';
+import react from '@astrojs/react';
 
-import react from "@astrojs/react";
-
-// https://astro.build/config
 export default defineConfig({
-  integrations: [react()]
+  output: 'server', // Change to 'server' or 'hybrid'
+  integrations: [react()],
 });
