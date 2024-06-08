@@ -314,6 +314,8 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 20px;
+  background-color: black;
+  border-radius: 80px 80px 0 0;
 }
 
 .step-connector {
@@ -365,7 +367,7 @@
 .buttons-step button:hover {
   /* background-color: #45a049;*/
   background-color: transparent;
-  color: black;
+  color:white;
   border: 1px solid blue;
 }
 .scroll-container {
