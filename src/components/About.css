@@ -1,0 +1,104 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:40vh;
+    background: linear-gradient(135deg, #c1cbf6, #f1f4ca);
+    text-align: center;
+}
+
+.about-container h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #333;
+    font-family: lexend;
+}
+
+.about-container h4 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #666;
+    font-family: lexend;
+}
+.container-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; /* Ensure items are centered vertically */
+    padding: 10px;
+    background-color: white;
+}
+
+.bxx-1,
+.bxx-2 {
+    flex: 1 1 45%;
+    margin: 10px;
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 4px;
+}
+
+.bxx-1 h1 {
+    font-size: 3.7rem;
+    color: rgb(2, 2, 30);
+}
+
+.bxx-2 p {
+    font-size: 1.3rem;
+    color: #454a61;
+}
+
+/* For the logo container */
+.logo-container {
+    flex: 0 0 auto; /* Do not shrink or grow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.rotating-logo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* For laptops and desktops */
+@media (min-width: 768px) {
+    .container-6 {
+        flex-wrap: nowrap;
+    }
+
+    .bxx-1,
+    .bxx-2 {
+        flex: 1;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+    .bxx-1,
+    .bxx-2 {
+        flex: 1 1 100%;
+    }
+
+    .logo-container {
+        margin: 10px 0; /* Adjust the margin for mobile view */
+    }
+
+    .rotating-logo {
+        width: 80px; /* Adjust the size for mobile view */
+        height: 80px; /* Adjust the size for mobile view */
+    }
+}

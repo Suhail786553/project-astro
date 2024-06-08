@@ -245,17 +245,17 @@
 }
 
 #photo1 {
-  background-image: url("https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65f2c34b59750ccb71e85a0f_Banner-Circle-1.svg");
+  background-image: url("https://icon-library.com/images/rotation-icon/rotation-icon-17.jpg");
   /* margin:120px; */
 }
 
 #photo2 {
-  background-image: url("https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65f2c34b59750ccb71e85a0f_Banner-Circle-1.svg");
+  background-image: url("https://icon-library.com/images/rotation-icon/rotation-icon-17.jpg");
   /* margin:120px; */
 }
 
 #photo3 {
-  background-image: url("https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65f2c34b59750ccb71e85a0f_Banner-Circle-1.svg");
+  background-image: url("https://icon-library.com/images/rotation-icon/rotation-icon-17.jpg");
   /* margin:120px; */
 }
 
@@ -613,7 +613,7 @@
 
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(251, 198, 198, 0.2);
   background-color: #e0f7fa;
   border: 1px solid black;
 }
