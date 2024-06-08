@@ -39,7 +39,7 @@ export default function Navbar() {
       </ul>
 
     </div>
-      <button className="btn btn-primary" type="submit">Bind With Us</button>
+      {/* <button className="btn btn-primary" type="submit">Bind With Us</button> */}
   </div>
 </nav>
     </div>

@@ -19,7 +19,7 @@ function Content() {
       </div>
       <div className="button-container">
         <button className="responsive-button">BIND WITH US</button>
-        <button className="responsive-button1">CONTACT NOW</button>
+        <button className="responsive-button1">CONTACT US</button>
       </div>
       <div className="container">
         <img
