@@ -151,10 +151,10 @@ function Content() {
           </div>
         </div>
         <div className="scroll-container">
-          <div className="image" id="image4"></div>
           <div className="image" id="image3"></div>
-          <div className="image" id="image2"></div>
+          <div className="image" id="image4"></div>
           <div className="image" id="image1"></div>
+          <div className="image" id="image2"></div>
         </div>
       </div>
       <div className="container3">
