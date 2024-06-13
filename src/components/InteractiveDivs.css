@@ -21,7 +21,8 @@
     box-sizing: border-box;
 }
 .numbers-div{
-    background-color: #1e176a;
+    /* background-color: #1e176a; */
+    background: linear-gradient(to bottom, #080a2f 51%, #131daa 75%);
     color: white;
     font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;

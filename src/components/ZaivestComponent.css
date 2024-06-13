@@ -1,0 +1,111 @@
+/* Container styling */
+.container6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f7fad9;
+  transition: background-color 0.5s ease;
+}
+
+.bxx1, .bxx2 {
+  flex: 1 1 45%;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.bxx1 h1 {
+  font-size: 3.7rem;
+  color: rgb(2, 2, 30);
+}
+
+/* Logo styling */
+.bxx1 .logo {
+  width: 100px;
+  height: 100px;
+  background-image: url('https://icon-library.com/images/rotation-icon/rotation-icon-17.jpg'); /* Add the path to your logo image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  animation: rotateLogo 5s linear infinite;
+}
+
+@keyframes rotateLogo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bxx2 p {
+  font-size: 1.3rem;
+  color: #454a61;
+}
+
+/* For laptops and desktops */
+@media (min-width: 768px) {
+  .container6 {
+    flex-wrap: nowrap;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+  .bxx1, .bxx2 {
+    flex: 1 1 100%;
+  }
+}
+
+/* Photo scroll CSS */
+.scroll-container1 {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Start images from the bottom */
+  overflow: hidden; /* Ensure only one image is visible at a time */
+  background-color: #f7fad9;
+}
+
+.image {
+  width: 40%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  position: absolute;
+  bottom: 0; /* Start from the bottom */
+  transform: translateY(100%); /* Start below the view */
+  box-shadow: inset 7px 7px 10px #bcf6e3,7px 7px 20px white;
+    border-radius: 15px;
+}
+
+.image.active {
+  opacity: 1;
+  transform: translateY(0); /* Move into view */
+}
+
+/* Hide scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .scroll-container1 {
+    width: 100%;
+  }
+
+  .image {
+    width: 95%;
+    height: 70vh;
+    border-radius: 20px;
+    box-shadow: 2px -3px 3px black;
+  }
+}

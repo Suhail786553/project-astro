@@ -22,9 +22,6 @@ const About = () => {
             investments, that you're future better equipped to achieve your
             financial goals.
         </p>
-        <div className="button-container">
-            <button className="responsive-button1">CONTACT NOW</button>
-        </div>
     </div>
 </div>
 <div class="container-row1">

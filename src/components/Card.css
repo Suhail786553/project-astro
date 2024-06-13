@@ -1,0 +1,114 @@
+
+.app {
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-slider {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.card-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.card {
+  background-color: #f7fad9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 65vw; /* Set width to 75% of the viewport width */
+  height: 75vh; /* Set height to 75% of the viewport height */
+  flex-shrink: 0;
+  margin: 0 10px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%; /* Adjust the width of the content area */
+  padding-right: 20px; /* Add some padding between the content and image */
+}
+
+.card-logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.card h2, .card p {
+  margin: 8px 0;
+  font-family: lexend;
+  color: #454a61;
+};
+
+.card-image {
+  width: 50%; /* Adjust the width of the image */
+  height: 100%; /* Make the image take the full height of the card */
+  object-fit: cover; /* Ensure the image covers the area */
+  border-radius: 8px;
+}
+
+/* .card:hover { */
+  /* transform: translateY(-10px); */
+  /* box-shadow: 0 8px 16px rgba(251, 198, 198, 0.2); */
+  /* background-color: #e0f7fa; */
+  /* border: 1px solid black; */
+/* } */
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons-container button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color:#f7fad9;;
+  color:black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+  font-weight: 600;
+  font-family: lexend;
+}
+
+.buttons-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    width: 100vw; /* Set width to 100% of the viewport width */
+    height: auto; /* Adjust height to auto for better responsiveness */
+  }
+
+  .card-content {
+    width: 100%; /* Adjust the width of the content area */
+    padding-right: 0; /* Remove padding between the content and image */
+  }
+
+  .card-image {
+    width: 100%; /* Adjust the width of the image */
+    height: auto; /* Make the image height auto */
+    object-fit: contain; /* Ensure the image fits within the container */
+  }
+
+  .card-container {
+    width: 400%; /* Adjust to total width for 4 cards in mobile */
+  }
+}

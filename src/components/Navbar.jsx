@@ -25,9 +25,10 @@ export default function Navbar() {
             Pages
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
+            <li><a className="dropdown-item" href="/">Home</a></li>
+            <li><a className="dropdown-item" href="/about">About Us</a></li>
+            <li><a className="dropdown-item" href="/shop">Shop</a></li>
+            <li><a className="dropdown-item" href="/contact">Contact Us</a></li>
           </ul>
         </li>
         <li className="nav-item">

@@ -1,5 +1,8 @@
 import "./Content.css";
 import InteractiveDivs from "./InteractiveDivs";
+import Card from "./Card";
+import ZaivestComponent from "./ZaivestComponent";
+import Photo from './Photo';
 
 function Content() {
   return (
@@ -9,6 +12,16 @@ function Content() {
           Your New Gateway to<br></br> Exclusive Investment In <br></br>Best
           Opportunities
         </h1>
+        <img
+          src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65f2c01bb7a422d7191da6be_Banner-S-1.svg"
+          className="mini-photo left"
+          alt="Mini Photo 1"
+        />
+        <img
+          src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65f2bff621b4188b17d7a6e1_Banner-S-2.svg"
+          className="mini-photo right"
+          alt="Mini Photo 2"
+        />
       </div>
       <div className="main1">
         <p>
@@ -132,7 +145,7 @@ function Content() {
           <div className="photo" id="photo3"></div>
         </div>
       </div>
-      <div className="containers">
+      {/* <div className="containers">
         <div className="step-connector">
           <div className="step">
             Step 1 <h4>Discovery</h4>
@@ -151,12 +164,13 @@ function Content() {
           </div>
         </div>
         <div className="scroll-container">
-          <div className="image" id="image3"></div>
-          <div className="image" id="image4"></div>
-          <div className="image" id="image1"></div>
-          <div className="image" id="image2"></div>
+          <div className="images" id="image3"></div>
+          <div className="images" id="image4"></div>
+          <div className="images" id="image1"></div>
+          <div className="images" id="image2"></div>
         </div>
-      </div>
+        
+      </div> */}
       <div className="container3">
         <div className="box1">
           <h1>Explore About Zaivest, Why People Select It.</h1>
@@ -185,30 +199,7 @@ function Content() {
         </div>
       </div>
       <hr></hr>
-      <div className="card-container">
-        <div className="card">
-          <img
-            src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bbb06cc8f6de9337b459c1_investment%20img%203.png"
-            alt="Card Image 1"
-          />
-          <h2>Software Companies</h2>
-        </div>
-        <div className="card">
-          <img
-            src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bb94fbc99652b4b054ad0d_investment%20img%201.png"
-            alt="Card Image 2"
-          />
-          <h2>Hardware Companies</h2>
-        </div>
-        <div className="card">
-          <img
-            src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65bbb598f9e3ad4438f0fc00_investment%20img%204.png"
-            alt="Card Image 3"
-          />
-          <h2>Mobile App Companies</h2>
-        </div>
-      </div>
-
+      <Card />
       <div className="marquee">
         <div className="marquee-content">
           <span>
@@ -219,29 +210,7 @@ function Content() {
           </span>
         </div>
       </div>
-      <div className="container6">
-        <div className="bxx1">
-          <h1>Explore About Zaivest, Why People Select It.</h1>
-        </div>
-        <div className="bxx2">
-          <p>
-            Stay informed, stay empowered – because when you understand your
-            investments, that you're future better equipped to achieve your
-            financial goals.
-          </p>
-          <div className="button-container">
-            <button className="responsive-button1">CONTACT NOW</button>
-          </div>
-        </div>
-      </div>
-      <div className="center-wrapper">
-        <div className="scroll-container1">
-          <div className="image" id="image1"></div>
-          <div className="image" id="image2"></div>
-          <div className="image" id="image3"></div>
-          <div className="image" id="image4"></div>
-        </div>
-      </div>
+      <ZaivestComponent/>
       <div className="container5">
         <div className="bx1">
           <h1>Explore About Zaivest, Why People Select It.</h1>
@@ -254,31 +223,10 @@ function Content() {
           </p>
         </div>
       </div>
-      {/* <CardSwitcher/> */}
-      <div className="container8">
-        <div className="upper2">
-          <h2>The Prime Investor We Have, Who Make’s Your Dream.</h2>
-          <h5>
-            Stay informed, stay empowered – because when you understand your
-            investments, that you're future better equipped to achieve your
-            financial goals.
-          </h5>
-        </div>
-        <div className="middle">
-          <img
-            src="https://assets-global.website-files.com/65ba1b755715957fca408ddc/65bf975cbc19eafdb0cf1375_member%20img%205.png"
-            alt="Medium Photo"
-            className="mid-photo"
-          />
-          {/* <div className="coins">
-      <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65cc9de9c829e27c189af716_v1%20member%20coin%202.svg" alt="Coin 1" className="coin"/>
-      <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65cc9de9c829e27c189af716_v1%20member%20coin%202.svg" alt="Coin 2" className="coin"/>
-    </div> */}
-        </div>
-      </div>
+      <Photo/>
       <div className="container5">
         <div className="bx1">
-          <h1>Upgrade And Downgrade With Important Information.</h1>
+          <h1>Upgrade And Downgrade With Important Inform.</h1>
         </div>
         <div className="bx2">
           <p>

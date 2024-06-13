@@ -1,0 +1,29 @@
+.content1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh; /* Full viewport height */
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.content1 h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4rem;
+    color: rgb(2, 2, 22);
+    font-weight: 600;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+    .content1 {
+        padding: 10px;
+    }
+
+    .content1 h1 {
+        font-size: 1.5rem;
+    }
+}

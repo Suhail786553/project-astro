@@ -1,21 +1,64 @@
+.main {
+  position: relative; /* Ensure the .main div is the reference point for absolute positioning */
+  text-align: center; /* Center align for better presentation */
+}
+
 .main h1 {
   font-size: 4vw; /* Font size based on viewport width */
   margin: 0;
   padding: 0.5em; /* Padding for better spacing */
-  text-align: center; /* Center align for better presentation */
 }
-@media (min-width: 768px) {
-  h1 {
-    font-size: 4vw;
+
+
+.mini-photo {
+  position: absolute; /* Positioning for animation */
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+  top: 50%; /* Center vertically relative to the h1 element */
+  transform: translateY(-50%); /* Adjust for exact centering */
+  animation: move 5s infinite alternate; /* Animation properties */
+}
+
+.mini-photo.left {
+  left: 420px; /* Start outside the left boundary */
+  top: 60px;
+}
+
+.mini-photo.right {
+  right: 450px; /* Start outside the right boundary */
+  top: 170px;
+}
+
+@keyframes move {
+  from {
+      transform: translateY(-50%) translateX(0);
+  }
+  to {
+      transform: translateY(-50%) translateX(40px); /* Adjust distance as needed */
   }
 }
 
-/* Further adjustment for very large screens */
-@media (min-width: 1200px) {
-  h1 {
-    font-size: 28px;
+@media (min-width: 768px) {
+  .main h1 {
+      font-size: 3vw; /* Adjust font size for larger screens */
+  }
+
+  .mini-photo {
+      width: 70px; /* Adjust size for larger screens */
   }
 }
+
+@media (max-width: 767px) {
+  .main h1 {
+      font-size: 7vw; /* Adjust font size for smaller screens */
+      font-weight: 620;
+  }
+
+  .mini-photo {
+      width: 40px; /* Adjust size for smaller screens */
+  }
+}
+
 .main1 p {
   font-size: 1rem; /* Base font size for mobile */
   padding: 1em; /* Base padding for mobile */
@@ -24,6 +67,7 @@
   margin: 0 auto; /* Center the paragraph element itself */
 
   max-width: 90%; /* Make sure it doesn't stretch too wide on mobile */
+  margin-left: 55vw;
 
   /* Responsive Typography */
   @media (min-width: 600px) {
@@ -36,6 +80,11 @@
     max-width: 50%; /* Make sure it doesn't stretch too wide on laptops and desktops */
   }
 }
+@media (max-width:768px){
+  .main1 p{
+    margin-left:5vw;
+  }
+}
 
 /* for button css */
 .button-container {
@@ -45,6 +94,7 @@
   align-items: center;
   margin: 6px;
   font-family: lexend;
+  margin-left: 51vw;
 }
 
 .responsive-button {
@@ -69,7 +119,9 @@
 
 @media (max-width: 600px) {
   .button-container {
-    flex-direction: row; /* Switch to horizontal layout on mobile */
+    flex-direction: row;
+/* Switch to horizontal layout on mobile */
+     margin-left: 0vw;
   }
 
   .responsive-button {
@@ -120,6 +172,7 @@
   display: block;
   border-radius: 10px; /* Optional: Add some border radius for rounded corners */
   /* margin:0 -19px; */
+  margin-top: -214px;
 }
 
 /* Media Queries */
@@ -129,7 +182,8 @@
   }
 
   .responsive-image {
-    border-radius: 0; /* Optional: Remove border radius on smaller screens */
+    border-radius: 0;
+    margin-top: 0px; /* Optional: Remove border radius on smaller screens */
   }
 }
 .Content h1 {
@@ -307,6 +361,15 @@
     height: 150px;
   }
 }
+@media (max-width: 768px) {
+  .photo-gallery {
+    margin: 0 0 0 -110px;
+  }
+  .content2 h2{
+    font-size: 5vw;
+  }
+}
+
 /* stepwise and photos css */
 .containers {
   display: flex;
@@ -314,7 +377,7 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 20px;
-  background-color: black;
+  /* background-color: black; */
   border-radius: 80px 80px 0 0;
 }
 
@@ -382,7 +445,7 @@
   background-color: #980d0d;
 }
 
-.image {
+.images {
   scroll-snap-align: start;
   flex: 0 0 100vh;
   width: 100%;
@@ -397,7 +460,7 @@
     width: 100%;
   }
 
-  .image {
+  .images {
     height: 100vh;
     width: 100%;
   }
@@ -495,50 +558,7 @@
     flex: 1 1 100%;
   }
 }
-.center-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
 
-.scroll-container1 {
-  display: flex;
-  flex-direction: column;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  width: 100vw;
-  height: 100vh;
-  max-width: 1200px; /* Optional: Set a max width for larger screens */
-  max-height: 100vh; /* Ensure it doesn't exceed viewport height */
-  border: 2px solid black;
-  border-radius: 0 120px 0 120px;
-}
-
-.image {
-  scroll-snap-align: start;
-  flex: 0 0 100vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Media query for mobile devices */
-@media (max-width: 768px) {
-  .scroll-container1 {
-    width: 100vw;
-    height: 50vh;
-  }
-
-  .image {
-    height: 100vh;
-    width: 100%;
-  }
-}
 /* for bx css */
 .container5 {
   display: flex;
@@ -584,7 +604,7 @@
   }
 }
 /* card css */
-.card-container {
+/* .card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -621,11 +641,11 @@
 }
 
 /* Media query for mobile devices */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .card-container {
     grid-template-columns: 1fr;
   }
-}
+} */ 
 /* line continue looping css */
 .marquee {
   width: 100%;
@@ -645,115 +665,17 @@
   display: inline-block;
   white-space: nowrap;
   color: #080a2f;
-  font-size: 35rem;
+  /* font-size: 55rem; */
 }
-
+.marquee-content span h2{
+  font-size: 5rem;
+}
 @keyframes marquee {
   0% {
     transform: translateX(20);
   }
   100% {
     transform: translateX(-100%);
-  }
-}
-/* container6 */
-.container6 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: #f7fad9;
-}
-
-.bxx1,
-.bxx2 {
-  flex: 1 1 45%;
-  margin: 10px;
-  padding: 20px;
-  /* border: 1px solid #ddd; */
-  border-radius: 4px;
-}
-.bxx1 h1 {
-  font-size: 3.7rem;
-  color: rgb(2, 2, 30);
-}
-.bxx2 p {
-  font-size: 1.3rem;
-  color: #454a61;
-}
-
-/* For laptops and desktops */
-@media (min-width: 768px) {
-  .container6 {
-    flex-wrap: nowrap;
-  }
-
-  .bxx1,
-  .bxx2 {
-    flex: 1;
-  }
-}
-
-/* For mobile devices */
-@media (max-width: 767px) {
-  .bxx1,
-  .bxx2 {
-    flex: 1 1 100%;
-  }
-}
-/* photo scroll css */
-
-.photo-container {
-  width: 500px;
-  height: 500px;
-  overflow: hidden;
-  border: 2px solid #ccc;
-  background-color: #fff;
-  position: relative;
-  margin: 30px auto;
-}
-.photo-c {
-  margin: -75px;
-  background-color: #f7fad9;
-}
-
-.photo-frame {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 500%;
-  transition: transform 0.5s ease-in-out;
-}
-
-.photo-frame img {
-  width: 100%;
-  height: 20%; /* Each image takes 20% of the container's height */
-  object-fit: cover;
-}
-
-body:active .photo-frame {
-  animation: scrollPhotos 5s linear infinite;
-}
-
-@keyframes scrollPhotos {
-  0% {
-    transform: translateY(0);
-  }
-  20% {
-    transform: translateY(-100%);
-  }
-  40% {
-    transform: translateY(-200%);
-  }
-  60% {
-    transform: translateY(-300%);
-  }
-  80% {
-    transform: translateY(-400%);
-  }
-  100% {
-    transform: translateY(-500%);
   }
 }
 /* photo coin css */
@@ -793,23 +715,6 @@ body:active .photo-frame {
   position: relative;
 }
 
-/* .coin {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 10px;
-  height: 10%;
-  animation: moveCoins 2s infinite alternate;
-}
-
-@keyframes moveCoins {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: 100%;
-  }
-} */
 /* footer css */
 footer {
   background-color: white;
