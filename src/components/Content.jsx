@@ -3,6 +3,7 @@ import InteractiveDivs from "./InteractiveDivs";
 import Card from "./Card";
 import ZaivestComponent from "./ZaivestComponent";
 import Photo from './Photo';
+import Stepcntr from './Stepcntr';
 
 function Content() {
   return (
@@ -171,6 +172,7 @@ function Content() {
         </div>
         
       </div> */}
+      <Stepcntr/>
       <div className="container3">
         <div className="box1">
           <h1>Explore About Zaivest, Why People Select It.</h1>

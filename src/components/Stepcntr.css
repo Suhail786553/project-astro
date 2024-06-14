@@ -1,0 +1,191 @@
+.containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 80px 80px 0 0;
+  width: 100%;
+  height: 100vh; /* Ensure full height for centering */
+}
+
+.step-connector, .scroll-container {
+  flex: 1;
+  margin: 10px;
+}
+
+.step-connector {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start */
+  position: relative;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  position: relative; /* Allow absolute positioning of connectors */
+  z-index: 1;
+  width: 100%;
+}
+
+.step::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: #ccc;
+  top: 0;
+  bottom: 0;
+  left: 20px; /* Adjusted to align with step-circle */
+  z-index: 0;
+}
+
+.step:first-child::before {
+  top: 50%;
+}
+
+.step:last-child::before {
+  bottom: 50%;
+}
+
+.step-label {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+.step-circle {
+  background-color: #f7fad9; /* Updated background color */
+  color: #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.step-description {
+  /* background-color: #f0f0f0; */
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: auto; /* Aligns h4 to the right column */
+  width: 60%; /* Adjust width as needed */
+  font-family: lexend;
+}
+
+.step-description h4 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.hfr {
+  color: #131daa;
+}
+
+.buttons-step {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+  font-weight: 600;
+  font-family: 'Lexend', sans-serif;
+}
+
+.buttons-step button {
+  padding: 10px 20px;
+  background-color: #131daa;
+  color: white;
+  border: none;
+  border-radius: 0 15px 0 15px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.one-btn {
+  width: 120px;
+}
+
+.buttons-step button:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid blue;
+}
+
+.scroll-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  box-shadow: inset 7px 7px 10px #bcf6e3, 7px 7px 20px white;
+  border-radius: 15px;
+  background-color: #131daa;
+}
+
+.images {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transform: translateY(100%);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  /* opacity: 0; */
+}
+
+.images.active {
+  transform: translateY(0%);
+}
+
+@media (max-width: 768px) {
+  .containers {
+    flex-direction: column;
+    align-items: center;
+    height:128vh; /* Adjust height for mobile view */
+  }
+
+  .step-connector {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .scroll-container {
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+  }
+
+  .images {
+    height: 60vh;
+    width: 100%;
+  }
+
+  .buttons-step {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .buttons-step button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+  }
+
+  .step-label {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .step-description h4 {
+    font-size: 1.5rem;
+  }
+}
