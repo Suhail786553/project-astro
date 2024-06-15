@@ -229,7 +229,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: calc(200% + 40px); /* Adjust based on the number of logos and their widths */
   animation: scroll 20s linear infinite;
 }
 
@@ -241,12 +241,13 @@
 
 @keyframes scroll {
   from {
-    transform: translateX(20%);
+    transform: translate3d(0, 0, 0);
   }
   to {
-    transform: translateX(-20%);
+    transform: translate3d(-50%, 0, 0);
   }
 }
+
 
 /* three circular photos and container css */
 

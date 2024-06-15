@@ -22,29 +22,29 @@ const App = () => {
     <div className="containers">
       <div className="step-connector">
         <div className="step">
-          <div className="step-circle">01</div>
           <div className="step-label">Step</div>
+          <div className="step-circle">01</div>
           <div className="step-description">
             <h4 className="hfr">Discovery &#8594;</h4>
           </div>
         </div>
         <div className="step">
-          <div className="step-circle">02</div>
           <div className="step-label">Step</div>
+          <div className="step-circle">02</div>
           <div className="step-description">
             <h4>Research</h4>
           </div>
         </div>
         <div className="step">
-          <div className="step-circle">03</div>
           <div className="step-label">Step</div>
+          <div className="step-circle">03</div>
           <div className="step-description">
             <h4>Planning</h4>
           </div>
         </div>
         <div className="step">
-          <div className="step-circle">04</div>
           <div className="step-label">Step</div>
+          <div className="step-circle">04</div>
           <div className="step-description">
             <h4>Investment</h4>
           </div>

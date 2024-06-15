@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css'
 import InteractiveDivs from './InteractiveDivs';
+import Stepcntr from './Stepcntr';
 
 const About = () => {
   return (
@@ -142,31 +143,7 @@ const About = () => {
           <div className="photo" id="photo3"></div>
         </div>
       </div>
-      <div className="containers">
-        <div className="step-connector">
-          <div className="step">
-            Step 1 <h4>Discovery</h4>
-          </div>
-          <div className="connector"></div>
-          <div className="step">
-            Step 2<h4>Research</h4>
-          </div>
-          <div className="connector"></div>
-          <div className="step">
-            Step 3<h4>Planning</h4>
-          </div>
-          <div className="buttons-step">
-            <button classname="one-btn">BIND US</button>
-            <button>CONTACT US</button>
-          </div>
-        </div>
-        <div className="scroll-container">
-          <div className="image" id="image3"></div>
-          <div className="image" id="image4"></div>
-          <div className="image" id="image1"></div>
-          <div className="image" id="image2"></div>
-        </div>
-      </div>
+      <Stepcntr/>
       <div className="container3">
         <div className="box1">
           <h1>Explore About Zaivest, Why People Select It.</h1>

@@ -24,6 +24,139 @@
     }
 
     .content1 h1 {
-        font-size: 1.5rem;
+        font-size: 3.2rem;
+    }
+}
+.containery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.photo-containery {
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+.photo-containery img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius:14px;
+}
+.button-containery {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.button-containery button {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+.info-container {
+    flex: 1;
+    padding: 20px;
+}
+.info-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+.info-row h1{
+    font-size: 3rem;
+}
+.info-row img {
+    margin-right: 10px;
+    background-color: blue;
+    height: 7vh;
+    border-radius:5px;
+}
+@media (max-width: 768px) {
+    .containery {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .button-containery {
+        position: static;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+.form-container {
+    max-width: 95%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.form-row label {
+    flex: 1 1 100%;
+    margin-bottom: 5px;
+}
+.form-row input, .form-row textarea {
+    flex: 1 1 48%;
+    padding: 10px;
+    margin-right: 4%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.form-row input:last-child {
+    margin-right: 0;
+}
+.form-row textarea {
+    height: 150px;
+    resize: none;
+    flex: 1 1 100%;
+}
+.form-row .full-width {
+    flex: 1 1 100%;
+}
+.form-row .button-container {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.form-row button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.form-row button:hover {
+    background-color: black;
+}
+.mandatory {
+    color: red;
+}
+@media (max-width: 600px) {
+    .form-row input, .form-row textarea {
+        flex: 1 1 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .form-row textarea {
+        height: 100px;
+    }
+}
+@media (min-width: 601px) {
+    .form-row.message-row textarea {
+        flex: 1 1 100%;
     }
 }

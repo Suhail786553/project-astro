@@ -23,13 +23,12 @@
 
 .step {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* Align items to the start */
   margin: 20px 0;
   position: relative; /* Allow absolute positioning of connectors */
   z-index: 1;
   width: 100%;
 }
-
 .step::before {
   content: '';
   position: absolute;
@@ -37,8 +36,9 @@
   background-color: #ccc;
   top: 0;
   bottom: 0;
-  left: 20px; /* Adjusted to align with step-circle */
+  left:108px; /* Adjusted to align with step-circle */
   z-index: 0;
+  top: -40px;
 }
 
 .step:first-child::before {
@@ -67,6 +67,7 @@
   margin-right: 10px;
   position: relative;
   z-index: 1;
+  margin: 0 35px;
 }
 
 .step-description {
@@ -77,11 +78,12 @@
   margin-left: auto; /* Aligns h4 to the right column */
   width: 60%; /* Adjust width as needed */
   font-family: lexend;
+  margin: 0 -9px;
 }
 
 .step-description h4 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 .hfr {
@@ -105,10 +107,11 @@
   border-radius: 0 15px 0 15px;
   cursor: pointer;
   font-weight: 600;
+  height: 8vh;
 }
 
 .one-btn {
-  width: 120px;
+  width: 150px;
 }
 
 .buttons-step button:hover {
@@ -186,6 +189,9 @@
   }
 
   .step-description h4 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+  .step::before {
+    left: 97px;
   }
 }
