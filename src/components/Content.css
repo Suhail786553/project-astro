@@ -183,7 +183,9 @@
 
   .responsive-image {
     border-radius: 0;
-    margin-top: 0px; /* Optional: Remove border radius on smaller screens */
+    margin-top: 0px;
+    width: 108%; /* Optional: Remove border radius on smaller screens */
+    margin: 0 -12px;
   }
 }
 .Content h1 {
