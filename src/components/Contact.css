@@ -21,10 +21,11 @@
 @media (max-width: 600px) {
     .content1 {
         padding: 10px;
+        height: 20vh;
     }
 
     .content1 h1 {
-        font-size: 3.2rem;
+        font-size: 2.1rem;
     }
 }
 .containery {

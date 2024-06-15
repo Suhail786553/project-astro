@@ -77,6 +77,9 @@ const Shop = () => {
           </div>
         </div>
       </footer>
+      <h5 class="footer">
+        © Copyright - <span style={{color:'blue'}}>Zaivest</span>| Designed by <span style={{color:'blue'}}>Flowzai / Licensing - </span>Powered by<span style={{color:'blue'}}> Webflow</span>
+    </h5>
     </div>
   );
 }

@@ -20,10 +20,6 @@ const Contact = () => {
             alt="Photo"
           />
         </div>
-        {/* <div class="button-containery">
-                <button>&lt;</button>
-                <button>&gt;</button>
-            </div> */}
         <div class="info-container">
           <div class="info-row">
             <h1>New York, NY office</h1>
@@ -177,6 +173,9 @@ const Contact = () => {
           </div>
         </div>
       </footer>
+      <h5 class="footer">
+        © Copyright - <span style={{color:'blue'}}>Zaivest</span>| Designed by <span style={{color:'blue'}}>Flowzai / Licensing - </span>Powered by<span style={{color:'blue'}}> Webflow</span>
+    </h5>
     </div>
   );
 };
