@@ -4,6 +4,7 @@ import Card from "./Card";
 import ZaivestComponent from "./ZaivestComponent";
 import Photo from './Photo';
 import Stepcntr from './Stepcntr';
+import PhotoCardSlider from "./PhotoCardSlider";
 
 function Content() {
   return (
@@ -146,32 +147,6 @@ function Content() {
           <div className="photo" id="photo3"></div>
         </div>
       </div>
-      {/* <div className="containers">
-        <div className="step-connector">
-          <div className="step">
-            Step 1 <h4>Discovery</h4>
-          </div>
-          <div className="connector"></div>
-          <div className="step">
-            Step 2<h4>Research</h4>
-          </div>
-          <div className="connector"></div>
-          <div className="step">
-            Step 3<h4>Planning</h4>
-          </div>
-          <div className="buttons-step">
-            <button classname="one-btn">BIND US</button>
-            <button>CONTACT US</button>
-          </div>
-        </div>
-        <div className="scroll-container">
-          <div className="images" id="image3"></div>
-          <div className="images" id="image4"></div>
-          <div className="images" id="image1"></div>
-          <div className="images" id="image2"></div>
-        </div>
-        
-      </div> */}
       <Stepcntr/>
       <div className="container3">
         <div className="box1">
@@ -225,6 +200,7 @@ function Content() {
           </p>
         </div>
       </div>
+      <PhotoCardSlider/>
       <Photo/>
       <div className="container5">
         <div className="bx1">

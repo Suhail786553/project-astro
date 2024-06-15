@@ -57,7 +57,15 @@
   display: block;
   margin: 0 auto 20px;
 }
-
+@media (max-width: 768px) {
+  .middle {
+    height: 50vh;
+  }
+  .middle img{
+    width: 75%;
+    height: 34vh;
+  }
+}
 .mid-photo {
   background: linear-gradient(to right, #77b5ff, #af6ef8);
   border-radius: 20px 70px 20px 70px;
