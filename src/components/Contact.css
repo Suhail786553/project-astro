@@ -147,7 +147,7 @@
     color: white;
     cursor: pointer;
     height: 8vh;
-    width: 14vw;
+    width: 12vw;
     font-weight: 600;
     /* font-family: lexend; */
    border-radius: 0 12px 0 12px;
@@ -172,5 +172,9 @@
 
     .input-group textarea {
         height: 100px;
+    }
+    .form-row button{
+        height: 6vh;
+        width: 35vw;
     }
 }
