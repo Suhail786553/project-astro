@@ -180,7 +180,7 @@
   .buttons-step button {
     margin-top: 10px;
     margin-bottom: 10px;
-    height: auto;
+    height:7vh;
   }
 
   .step-label {
