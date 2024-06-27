@@ -1,15 +1,163 @@
-.btn-primary{--bs-btn-color: #fff;
-  --bs-btn-bg: #131daa;
-  --bs-btn-border-color: #0d6efd;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0b5ed7;
-  --bs-btn-hover-border-color: #0a58ca;
-  --bs-btn-focus-shadow-rgb: 49,132,253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0a58ca;
-  --bs-btn-active-border-color: #0a53be;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #0d6efd;
-  --bs-btn-disabled-border-color: #0d6efd;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #090c36;
+  padding: 10px;
+  color: #fff;
+  box-shadow: 5px 25px #090c36;
+}
+
+.navbar-logo img {
+  height: auto;
+  width: auto;
+  margin: 0 35px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-top: 28px;
+  margin-left: -48px;
+}
+
+.nav-links p {
+  margin-right: 20px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-links ul li {
+  margin: 0 20px;
+  position: relative;
+  font-weight: 600;
+}
+
+.nav-links li {
+  margin-top: 13px;
+}
+
+.nav-links li:hover {
+  color: #6EC1E4;
+}
+
+.nav-links ul li .dropdown-icon {
+  margin-left: 5px;
+}
+
+.nav-links ul li ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #eff4f8;
+  color: #444;
+  padding: 10px;
+  list-style: none;
+  border-radius: 10px;
+  height: auto; /* Adjusted */
+}
+
+.nav-links ul li ul.dropdown li {
+  padding: 10px 0; /* Added padding to increase space */
+}
+
+.nav-links ul li:hover ul.dropdown {
+  display: block;
+}
+
+.get-started-btn {
+  background-color: #6EC1E4;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 0 20px;
+  cursor: pointer;
+  height: 33px;
+}
+
+.get-started-btn:hover {
+  background-color: red;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px; /* Reduced gap */
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 2vw; /* Reduced margin */
+  flex-wrap: nowrap; /* Ensure icons stay in the same row */
+  overflow: hidden; /* Prevent wrapping */
+}
+
+.social-icons > * {
+  margin-left: 10px;
+}
+
+/* Increase size of the last social icon */
+.social-icons > *:last-child {
+  font-size: 28px;
+}
+
+.mobile-menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.nav-links-mobile {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-links-mobile ul {
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-links-mobile ul li {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.nav-links-mobile ul li ul.dropdown {
+  position: static;
+  background-color: #444;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-links-mobile {
+    display: flex;
+  }
+
+  .social-icons {
+    flex-wrap: nowrap; /* Ensure icons stay in the same row */
+    gap: 5px; /* Adjust gap if needed */
+    margin: 0 1vw; /* Adjust margin if needed */
+  }
+
+  .navbar-logo,
+  .mobile-menu-icon {
+    display: flex;
+    justify-content: space-between;
+  }
 }

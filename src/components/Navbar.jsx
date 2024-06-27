@@ -1,48 +1,71 @@
-// import 'Navbar.css';
-import React from 'react';
-import { Link } from 'react-router-dom';
 
-export default function Navbar() {
+import React, { useState } from 'react';
+import { FaFacebook, FaLinkedin, FaTwitter, FaShoppingCart, FaBars, FaChevronDown } from 'react-icons/fa';
+import './Navbar.css';
+
+const Navbar = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
   return (
-    <div>
-     <nav className="navbar navbar-expand-lg bg-body-tertiary">
-  <div className="container-fluid">
-  <a className="navbar-brand" href="/"><img src="https://app.shiprocket.in/sr_login/assets/images/srlogo.svg " alt="logo"></img></a>
-
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/about">About Us</a>
-        </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Pages
-          </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="/">Home</a></li>
-            <li><a className="dropdown-item" href="/about">About Us</a></li>
-            <li><a className="dropdown-item" href="/shop">Shop</a></li>
-            <li><a className="dropdown-item" href="/contact">Contact Us</a></li>
-          </ul>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/shop">Shop</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/contact">Contact us</a>
-        </li>
-      </ul>
-
-    </div>
-      {/* <button className="btn btn-primary" type="submit">Bind With Us</button> */}
-  </div>
-</nav>
-    </div>
+    <nav className="navbar">
+      <div className="navbar-logo">
+        <img src="https://live.21lab.co/mlab/wp-content/themes/mlab/assets/img/logo.png" alt="Logo" />
+      </div>
+      <div className={isMobile ? "nav-links-mobile" : "nav-links"}>
+        <ul>
+          <li style={{color:"#6EC1E4"}}>
+            HomePage <FaChevronDown className="dropdown-icon" />
+            <ul className="dropdown">
+              <li>Homepage1</li>
+              <li>Homepage2</li>
+              <li>Homepage3</li>
+            </ul>
+          </li>
+          <li>
+            About <FaChevronDown className="dropdown-icon" />
+            <ul className="dropdown">
+              <li>Company</li>
+              <li>OurPeople</li>
+              <li>Mission</li>
+              <li>Solutions</li>
+            </ul>
+          </li> 
+          <li>
+            Solutions <FaChevronDown className="dropdown-icon" />
+            <ul className="dropdown">
+              <li>BankSolution</li>
+              <li>StockSolution</li>
+              <li>WealthSolution</li>
+            </ul>
+          </li>
+          <li>
+            CaseStudies <FaChevronDown className="dropdown-icon" />
+            <ul className="dropdown">
+              <li>Subitem1</li>
+              <li>Subitem2</li>
+            </ul>
+          </li>
+          <li>Blog</li>
+          <li>ContactUs</li>
+          <li>
+            <button className="get-started-btn">GetStarted</button>
+          </li>
+        </ul>
+      </div>
+      <div className="social-icons">
+        <FaFacebook />
+        <FaTwitter />
+        <FaLinkedin />
+        <FaShoppingCart />
+      </div>
+      <div className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>
+      <FaShoppingCart />
+      </div>
+      <div className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>
+        Menu
+      </div>
+    </nav>
   );
-}
+};
+
+export default Navbar;

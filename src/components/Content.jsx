@@ -2,13 +2,127 @@ import "./Content.css";
 import InteractiveDivs from "./InteractiveDivs";
 import Card from "./Card";
 import ZaivestComponent from "./ZaivestComponent";
-import Photo from './Photo';
-import Stepcntr from './Stepcntr';
+import Photo from "./Photo";
+import Stepcntr from "./Stepcntr";
 import PhotoCardSlider from "./PhotoCardSlider";
 
 function Content() {
   return (
     <div>
+      <div className="content-div1">
+        <h1>
+          Investing in the<br></br> Future of{" "}
+          <span className="fint">Fintech</span>
+        </h1>
+        <div className="content-row">
+          <button>Face Case Evaluation &#8599;</button>
+          <p>
+            Here's how your fintech advisor can <br></br>bring your idea to
+            life.
+          </p>
+        </div>
+      </div>
+      <div class="container-R">
+        <h6>Financial technology at MLab</h6>
+        <h2>
+          We are at the Forefront of <br></br>Revolutionizing the Future.
+        </h2>
+        <p>
+          Backed by decades of industry experience, we have the financial
+          technology<br></br>skills and can-do attitude to take your business to
+          the next level.
+        </p>
+      </div>
+      <div class="container-Card">
+        <div class="cardcn">
+          <div class="card-contentcn">
+            <h3>How can we help?</h3>
+            <div class="arrow">&#8599;</div>
+          </div>
+          <div class="card-image">
+            <img
+              src="https://media.istockphoto.com/photos/petite-nature-picture-id851868144?k=6&m=851868144&s=170667a&w=0&h=1zdeGKsqFrclx-KOipWLoHD4zwbfa-wS9bbSN4JN2mA="
+              alt="Image 1"
+            />
+          </div>
+        </div>
+        <div class="cardcn">
+          <div class="card-contentcn">
+            <h3>How can we help?</h3>
+            <div class="arrow">&#8599;</div>
+          </div>
+          <div class="card-image">
+            <img
+              src="https://media.istockphoto.com/photos/petite-nature-picture-id851868144?k=6&m=851868144&s=170667a&w=0&h=1zdeGKsqFrclx-KOipWLoHD4zwbfa-wS9bbSN4JN2mA="
+              alt="Image 2"
+            />
+          </div>
+        </div>
+        <div class="cardcn">
+          <div class="card-contentcn">
+            <h3>How can we help?</h3>
+            <div class="arrow">&#8599;</div>
+          </div>
+          <div class="card-image">
+            <img
+              src="https://media.istockphoto.com/photos/petite-nature-picture-id851868144?k=6&m=851868144&s=170667a&w=0&h=1zdeGKsqFrclx-KOipWLoHD4zwbfa-wS9bbSN4JN2mA="
+              alt="Image 1"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="write">
+        Are you segmenting clients to ensure proper coverage and add-on
+        opportunities? <strong>Find Out More</strong>
+      </div>
+      <div class="container-cc">
+        <div class="left-cc">
+          <h6>Why choose MLab</h6>
+          <h2>
+            Our values hold us accountable to be the <br></br>best, to actwith
+            integrity and to take <br></br>personal responsibility for our actions.
+          </h2>
+          <a href="#" class="btn">
+            Download Brochure &#x2193;
+          </a>
+        </div>
+        <div class="right">
+          <div class="cardcn1">
+            <h4>Being brave</h4>
+            <img
+              src="http://www.clker.com/cliparts/G/d/q/2/2/W/simple-heart-hi.png"
+              alt="Heart"
+            />
+            <p>
+              New ideas drive change, so we constantly innovate and take on new
+              challenges – that’s what makes us pioneers.{" "}
+            </p>
+          </div>
+          <div class="cardcn1">
+            <h4>Being human</h4>
+            <img
+              src="http://www.clker.com/cliparts/G/d/q/2/2/W/simple-heart-hi.png"
+              alt="Heart"
+            />
+            <p>
+              Our approach is driven by what makes us all human, and it has
+              built a creative environment where people can thrive.{" "}
+            </p>
+          </div>
+          <div class="cardcn1">
+            <h4>Being different</h4>
+            <img
+              src="http://www.clker.com/cliparts/G/d/q/2/2/W/simple-heart-hi.png"
+              alt="Heart"
+            />
+            <p>
+              By tapping into all of our unique journeys, we can deliver
+              meaningful solutions that make a difference.{" "}
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="main">
         <h1>
           Your New Gateway to<br></br> Exclusive Investment In <br></br>Best
@@ -57,45 +171,140 @@ function Content() {
           </p>
         </div>
         {/* logos running */}
-        <div class="logo-row">
-  <div class="logos">
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a4e4b3f980c78aad7b5_company%20logo%2010.svg" alt="Logo 5" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a566d7044174d4a05c3_company%20logo%2011.svg" alt="Logo 6" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a6eb3e661b51a05277e_company%20logo%2012.svg" alt="Logo 7" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a7a48f65e29f54cbb6c_company%20logo%2013.svg" alt="Logo 8" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2036b309cc89f56bfe_company%20logo%206.svg" alt="Logo 1" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a11029aa8acd8eb622e_company%20logo%205.svg" alt="Logo 2" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a439d9c21c56b921fa1_company%20logo%209.svg" alt="Logo 8" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a4e4b3f980c78aad7b5_company%20logo%2010.svg" alt="Logo 5" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a566d7044174d4a05c3_company%20logo%2011.svg" alt="Logo 6" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2d33c28b61a374ab53_company%20logo%207.svg" alt="Logo 3" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a6eb3e661b51a05277e_company%20logo%2012.svg" alt="Logo 7" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a7a48f65e29f54cbb6c_company%20logo%2013.svg" alt="Logo 8" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a439d9c21c56b921fa1_company%20logo%209.svg" alt="Logo 8" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2036b309cc89f56bfe_company%20logo%206.svg" alt="Logo 1" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a11029aa8acd8eb622e_company%20logo%205.svg" alt="Logo 2" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2d33c28b61a374ab53_company%20logo%207.svg" alt="Logo 3" />
-  </div>
-  <div class="logos">
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a566d7044174d4a05c3_company%20logo%2011.svg" alt="Logo 6" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a7a48f65e29f54cbb6c_company%20logo%2013.svg" alt="Logo 8" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2036b309cc89f56bfe_company%20logo%206.svg" alt="Logo 1" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a4e4b3f980c78aad7b5_company%20logo%2010.svg" alt="Logo 5" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a6eb3e661b51a05277e_company%20logo%2012.svg" alt="Logo 7" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a11029aa8acd8eb622e_company%20logo%205.svg" alt="Logo 2" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a4e4b3f980c78aad7b5_company%20logo%2010.svg" alt="Logo 5" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2d33c28b61a374ab53_company%20logo%207.svg" alt="Logo 3" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a566d7044174d4a05c3_company%20logo%2011.svg" alt="Logo 6" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a439d9c21c56b921fa1_company%20logo%209.svg" alt="Logo 8" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a7a48f65e29f54cbb6c_company%20logo%2013.svg" alt="Logo 8" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a6eb3e661b51a05277e_company%20logo%2012.svg" alt="Logo 7" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2036b309cc89f56bfe_company%20logo%206.svg" alt="Logo 1" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a439d9c21c56b921fa1_company%20logo%209.svg" alt="Logo 8" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2d33c28b61a374ab53_company%20logo%207.svg" alt="Logo 3" />
-    <img src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a11029aa8acd8eb622e_company%20logo%205.svg" alt="Logo 2" />
-  </div>
-</div>
-
+        <div className="logo-row">
+          <div className="logos">
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a4e4b3f980c78aad7b5_company%20logo%2010.svg"
+              alt="Logo 5"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a566d7044174d4a05c3_company%20logo%2011.svg"
+              alt="Logo 6"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a6eb3e661b51a05277e_company%20logo%2012.svg"
+              alt="Logo 7"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a7a48f65e29f54cbb6c_company%20logo%2013.svg"
+              alt="Logo 8"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2036b309cc89f56bfe_company%20logo%206.svg"
+              alt="Logo 1"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a11029aa8acd8eb622e_company%20logo%205.svg"
+              alt="Logo 2"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a439d9c21c56b921fa1_company%20logo%209.svg"
+              alt="Logo 8"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a4e4b3f980c78aad7b5_company%20logo%2010.svg"
+              alt="Logo 5"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a566d7044174d4a05c3_company%20logo%2011.svg"
+              alt="Logo 6"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2d33c28b61a374ab53_company%20logo%207.svg"
+              alt="Logo 3"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a6eb3e661b51a05277e_company%20logo%2012.svg"
+              alt="Logo 7"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a7a48f65e29f54cbb6c_company%20logo%2013.svg"
+              alt="Logo 8"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a439d9c21c56b921fa1_company%20logo%209.svg"
+              alt="Logo 8"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2036b309cc89f56bfe_company%20logo%206.svg"
+              alt="Logo 1"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a11029aa8acd8eb622e_company%20logo%205.svg"
+              alt="Logo 2"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2d33c28b61a374ab53_company%20logo%207.svg"
+              alt="Logo 3"
+            />
+          </div>
+          <div className="logos">
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a566d7044174d4a05c3_company%20logo%2011.svg"
+              alt="Logo 6"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a7a48f65e29f54cbb6c_company%20logo%2013.svg"
+              alt="Logo 8"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2036b309cc89f56bfe_company%20logo%206.svg"
+              alt="Logo 1"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a4e4b3f980c78aad7b5_company%20logo%2010.svg"
+              alt="Logo 5"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a6eb3e661b51a05277e_company%20logo%2012.svg"
+              alt="Logo 7"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a11029aa8acd8eb622e_company%20logo%205.svg"
+              alt="Logo 2"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a4e4b3f980c78aad7b5_company%20logo%2010.svg"
+              alt="Logo 5"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2d33c28b61a374ab53_company%20logo%207.svg"
+              alt="Logo 3"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a566d7044174d4a05c3_company%20logo%2011.svg"
+              alt="Logo 6"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a439d9c21c56b921fa1_company%20logo%209.svg"
+              alt="Logo 8"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a7a48f65e29f54cbb6c_company%20logo%2013.svg"
+              alt="Logo 8"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a6eb3e661b51a05277e_company%20logo%2012.svg"
+              alt="Logo 7"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2036b309cc89f56bfe_company%20logo%206.svg"
+              alt="Logo 1"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a439d9c21c56b921fa1_company%20logo%209.svg"
+              alt="Logo 8"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a2d33c28b61a374ab53_company%20logo%207.svg"
+              alt="Logo 3"
+            />
+            <img
+              src="https://assets-global.website-files.com/65b8d5c5e2ef493dbe7c1b86/65b90a11029aa8acd8eb622e_company%20logo%205.svg"
+              alt="Logo 2"
+            />
+          </div>
+        </div>
       </section>
 
       <div className="container1">
@@ -114,7 +323,7 @@ function Content() {
           <div className="photo" id="photo3"></div>
         </div>
       </div>
-      <Stepcntr/>
+      <Stepcntr />
       <div className="container3">
         <div className="box1">
           <h1>Explore About Zaivest, Why People Select It.</h1>
@@ -154,7 +363,7 @@ function Content() {
           </span>
         </div>
       </div>
-      <ZaivestComponent/>
+      <ZaivestComponent />
       <div className="container5">
         <div className="bx1">
           <h1>Explore About Zaivest, Why People Select It.</h1>
@@ -167,8 +376,8 @@ function Content() {
           </p>
         </div>
       </div>
-      <PhotoCardSlider/>
-      <Photo/>
+      <PhotoCardSlider />
+      <Photo />
       <div className="container5">
         <div className="bx1">
           <h1>Upgrade And Downgrade With Important Inform.</h1>
@@ -240,9 +449,11 @@ function Content() {
           </div>
         </div>
       </footer>
-      <h5 class="footer">
-        © Copyright - <span style={{color:'blue'}}>Zaivest</span>| Designed by <span style={{color:'blue'}}>Flowzai / Licensing - </span>Powered by<span style={{color:'blue'}}> Webflow</span>
-    </h5>
+      <h5 className="footer">
+        © Copyright - <span style={{ color: "blue" }}>Zaivest</span>| Designed
+        by <span style={{ color: "blue" }}>Flowzai / Licensing - </span>Powered
+        by<span style={{ color: "blue" }}> Webflow</span>
+      </h5>
     </div>
   );
 }
